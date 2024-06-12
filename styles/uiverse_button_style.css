@@ -1,0 +1,68 @@
+#resume-download-btn {
+    font-family: inherit;
+    font-size: 20px;
+    background: #212121;
+    color: white;
+    fill: rgb(155, 153, 153);
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-weight: 1000;
+  }
+  
+  #resume-download-btn span {
+    display: block;
+    margin-left: 0.3em;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #resume-download-btn ion-icon {
+    display: block;
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  }
+  
+  #resume-download-btn:hover {
+    background: #252525;
+  }
+  
+  #resume-download-btn:hover .download-logo {
+    -webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25);
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+  }
+  
+  #resume-download-btn:hover ion-icon {
+    -webkit-transform: translateX(1.2em) scale(1.1);
+    -ms-transform: translateX(1.2em) scale(1.1);
+    transform: translateX(1.2em) scale(1.1);
+    fill: #fff;
+  }
+  
+  #resume-download-btn:hover span {
+    opacity: 0;
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+  }
+  
+  #resume-download-btn:active {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
