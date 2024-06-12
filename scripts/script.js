@@ -17,7 +17,7 @@ function scrollToSection(event, sectionId) {
 function downloadResume(event) {
     event.preventDefault()
     // URL of the PDF file
-    const pdfUrl = 'resume\Dharmesh Marathe Resume.pdf';
+    const pdfUrl = '../resume/Dharmesh Marathe Resume.pdf';
 
     // Create an anchor element and set the attributes
     const link = document.createElement('a');
